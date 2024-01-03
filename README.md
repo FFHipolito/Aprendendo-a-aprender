@@ -8,6 +8,7 @@ A página Aprendendo a aprender é um projeto no programa de desenvolvedor de so
 - Flexbox
 - Posicionamento
 - Empilhamento vertical com z-index
+- Animação
 - Formulários
 - Git e GitHub
 
