@@ -1,0 +1,92 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo_place_header {
+  position: absolute;
+  z-index: 1;
+  width: 154px;
+  height: 31px;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  align-self: center;
+  z-index: 1;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  align-self: flex-end;
+  left: 64px;
+  bottom: 35px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  position: absolute;
+  align-self: flex-end;
+  left: 64px;
+  bottom: 30px;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link:hover {
+  opacity: 0.7;
+}
+
+.header__link:visited {
+  color: purple;
+}
+
+.header__main-illustration {
+  width: 756px;
+  height: 608px;
+  position: absolute;
+  align-self: flex-end;
+  right: 0;
+  z-index: 1;
+}
+
+.header__square {
+  position: absolute;
+  max-width: 568px;
+  max-height: 568px;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
+  transform: rotate(-15deg);
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(-15deg);
+  }
+}
+
+@keyframes loading {
+  100% {
+    transform: rotate(345deg);
+  }
+}
+
+.header__square_animation {
+  animation: loading 20s linear infinite;
+}
