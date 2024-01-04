@@ -60,10 +60,6 @@
   opacity: 0.7;
 }
 
-.footer__column-link:visited {
-  color: purple;
-}
-
 .footer__social-icon {
   width: 16px;
   height: 16px;

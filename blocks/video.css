@@ -1,0 +1,19 @@
+.video {
+  margin: 100px 0 0;
+}
+
+.section-title_subititle {
+  margin-bottom: 50px;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.video__iframe {
+  width: 516px;
+  height: 316px;
+  border: none;
+}

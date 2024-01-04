@@ -65,6 +65,7 @@
   height: 636px;
   margin: 0;
   position: absolute;
-  top: 0;
-  right: -124px;
+  rotate: 27deg;
+  top: 280px;
+  right: 80px;
 }
